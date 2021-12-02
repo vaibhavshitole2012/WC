@@ -1,0 +1,69 @@
+PhilipsReviseListenerAdapter
+PhilipsDocReviseValidator
+
+check: PhilipsSaveAsListenerAdapter
+
+
+ QuerySpec qs = new QuerySpec(TeamTemplate.class);
+            qs.appendWhere(new SearchCondition(TeamTemplate.class, TeamTemplate.NAME, SearchCondition.EQUAL, key),
+                    new int[] { 0 });
+            QueryResult queryResult = PersistenceHelper.manager.find(qs);
+            while (queryResult.hasMoreElements()) {
+                teamTemplate = (TeamTemplate) queryResult.nextElement();
+                String name = teamTemplate.getName();
+				
+-----------------------------------------------------------------------------------------------------------------------------				
+ref: com.philips.tool.template.PhilipsCATeamTemplateUpdateUtility
+
+ public static void updateCATeamTemplate() throws WTException {
+        LOG.debug("PhilipsCATeamTemplateUpdateUtility.updateCATeamTemplate()::Entry");
+        int[] indexes = new int[] { 0 };
+        QuerySpec qs = new QuerySpec(TeamTemplate.class);
+        qs.appendWhere(new SearchCondition(TeamTemplate.class, TeamTemplate.NAME, SearchCondition.EQUAL,
+                PHILIPS_CA_TEAM_TEMPLATE_NAME), indexes);
+        QueryResult qr = PersistenceHelper.manager.find((StatementSpec) qs);
+        while (qr.hasMoreElements()) {
+            TeamTemplate template = (TeamTemplate) qr.nextElement();
+            template.addActorRole(Role.toRole(CONTENT_APPROVER), null);
+            template.addActorRole(Role.toRole(CUSTOMER_APPROVER), null);
+            template.deleteRole(Role.toRole(APPROVER));
+        }
+        LOG.debug("PhilipsCATeamTemplateUpdateUtility.updateCATeamTemplate()::Exit");
+    }
+	
+-----------------------------------------------------------------------------------------------------------------------------	
+	
+    public static String removeUserFromAllTeamTemplate(WTUser user) throws WTException {
+        LOGGER.debug("ENTER : PhilipsUserDeactivationHelper.removeUserFromAllTeamTemplate(WTUser): ");
+
+        TeamTemplate teamTemplate = null;
+        Role role = null;
+        String msg = "";
+
+        QuerySpec qs = new QuerySpec(TeamTemplate.class);
+        QueryResult result = PersistenceServerHelper.manager.query(qs);
+        LOGGER.debug("result : " + result.size());
+        while (result.hasMoreElements()) {
+            teamTemplate = (TeamTemplate) result.nextElement();
+
+            List<Role> vectorRole = teamTemplate.getRoles();
+            for (Role obj : vectorRole) {
+                role = (Role) obj;
+
+                TeamHelper.service.deleteRolePrincipalMap(role, user, teamTemplate);
+                teamTemplate = (TeamTemplate) PersistenceHelper.manager.refresh(teamTemplate);
+            }
+        }
+        if (null != role && null != teamTemplate) {
+            msg = msg + user.getName() + SUCCESS + user.getName() + IS_REMOVED_FROM + role.getDisplay() + " role of '" + teamTemplate.getName()
+            + "' team template\n";
+        }
+        LOGGER.debug("EXIT : PhilipsUserDeactivationHelper.removeUserFromAllTeamTemplate(WTUser): ");
+        return msg;
+    }
+	
+-----------------------------------------------------------------------------------------------------------------------------	
+
+for disable default unit:
+com.philips.cplm.core.part.datautilities.PhilipsDefaultUnitDataUtility
+com.philips.cplm.core.part.datautilities.MaturityDataUtility (Ref)

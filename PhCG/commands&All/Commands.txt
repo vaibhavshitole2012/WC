@@ -1,0 +1,87 @@
+<Property name="wt.manager.cmd.MethodServer.debug.args" overridable="true"
+             targetFile="codebase/wt.properties"
+             value="-agentlib:jdwp=transport=dt_socket,address=7777,server=y,suspend=n"/>
+   <Property name="wt.manager.monitor.services" overridable="true"
+             targetFile="codebase/wt.properties"
+            value="MethodServer"/>
+   <Property name="wt.manager.monitor.start.MethodServer" overridable="true"
+             targetFile="codebase/wt.properties"
+             value="1"/>
+   <Property name="wt.queue.executeQueues" overridable="true"
+             targetFile="codebase/wt.properties"
+             value="true"/> 
+
+-----------------------------------------------------------------------------------------------------------------
+
+javac D:\SVN_CPS17\4.0_tag\src\com\philips\cplm\packages\validators\PhilipsDocReviseValidator.java -d codebase
+
+windchill wt.load.LoadFromFile -d <data file name> -u <user name> -p <user password> -CONT_PATH <container path>
+
+windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\PhilipsProductConfigurationCR_WF-59347.xml -u wcadmin -p wcadmin
+
+windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\classIII\PhilipsProductConfigurationCR_WF.xml -u wcadmin -p wcadmin
+
+
+
+
+
+<Option serviceClass="com.philips.cplm.packages.validators.PhilipsReviseValidator" requestor="null" selector="REVISEITEMS" cardinality="duplicate"/>
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/MULTIREVISEITEMS_FROMFOLDERS/null/0=com.philips.cplm.core.doc.masterlist.validator.PhilipsDocReviseValidator/duplicate
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/REVISEITEMS/null/0=com.philips.cplm.core.doc.masterlist.validator.PhilipsDocReviseValidator/duplicate
+
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/MULTIREVISEITEMSREVISEITEMS_FROMFOLDERS/null/0=com.philips.cplm.packages.validators.PhilipsReviseValidator/duplicate
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/REVISEITEMS/null/0=com.philips.cplm.packages.validators.PhilipsReviseValidator/duplicate
+
+windchill com.philips.tool.attribute.TestTool wcadmin CR000002
+
+windchill ext.piab.change.order.TestTool wcadmin CR000002
+
+windchill com.philips.cplm.core.doc.PhilipsCreateTeamTemplate wcadmin
+
+javac D:\SVN_CPS17\4.5_DevBranch\src\com\philips\build\tools\PhilipsCreateQMSTeamTemplateUtility.java -d codebase
+
+javac D:\ptc\Windchill_11.1\Windchill\src\com\philips\cplm\core\part\datautilities\PhilipsDefaultUnitDataUtility.java -d codebase
+
+windchill com.philips.build.tools.PhilipsCreateQMSTeamTemplateUtility -u wcadmin -p wcadmin -t 5
+
+windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\CSM_PhilipsBusinesPartnerQualification_WF.xml -u wcadmin -p wcadmin
+
+windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow -lcPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\lifecycle
+
+wt.DefaultUnitLockStates=MANUFACTURING RELEASED, RELEASED 
+
+wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/defaultUnit/java.lang.Object/0=com.philips.cplm.core.part.datautilities.PhilipsDefaultUnitDataUtility/duplicate
+wt.ExcludePartForDefaultUnit =com.philips.PhilipsTradeItem,com.philips.CommercialPart
+<Property name="com.ptc.windchill.insight.webservice.response.xsl" default="exchangeResponse_v1_0.xsl" targetFile="codebase/wt.properties" overridable="true"/>
+
+<Option serviceClass="com.philips.cplm.core.part.datautilities.PhilipsDefaultUnitDataUtility" requestor="java.lang.Object" selector="defaultUnit" cardinality="duplicate"/>
+
+ant -f DeployConfigITUrl.xml UpdateConfigITUrl -Dcplm.envType=develop -DfileName=..\codebase\com\philips\cplm\properties\configITinterface.properties
+
+----------------------------------------------------------------------------------------
+PhilipsRegulatoryChangeHelper (Ref for CN)
+
+
+UpdateAttributeTool (Ref)
+TestTool (Utility)
+com.philips.cplm.csm.validators.CSMRelatedDocumentActionValidator.isInRole() - Ref
+
+Changes in file for BPQManager:
+PhilipsBPQDocHelper (new Created)
+CreateAndAddDocFormProcessor
+PhilipsReviseListenerAdapter
+PhilipsDocReviseValidator (created new)  PhilipsReviseValidator (check already implemented)
+listenersResource
+PhilipsUtilitiesConstantsResource
+
+
+com.philips.cplm.core.doc.helper.PhilipsApproverMatrixHelper.getTeamTemplate(WTContainerRef, String)
+
+com.philips.cplm.core.doc.helper.PhilipsApproverMatrixHelper.isTeamTemplatePresent(WTContainer, boolean)
+------------------------------------------------------------------------------------------------------------------------------
+Ref:
+PhilipsCATeamTemplateUpdateUtility

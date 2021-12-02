@@ -1,0 +1,62 @@
+Import license by double clicking on license
+make changes in Network:
+	add proxy: proxy.cognizant.com
+		port: 6050
+		username and passoword(cognizant_id_pwd)
+
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2102_1_Build
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2105_1_HF01
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2112_1_HF02
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2115_1_HF03
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2117_1_HF04
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2118_1_HF05
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2119_1_HF06
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.0/DevBranch
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-Demodata/branches/DemoData_4.0
+
+
+
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.0/DevBranch
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.0/CompBranch
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DemoData/branches/DemoData_4.0/DevBranch
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DemoData/branches/DemoData_4.0/CompBranch
+
+
+
+create folder
+checkout: add link and check destination folder and ok
+add username and passoword provided in license mail
+
+3.8 build and HF
+3.8 demo
+upgrade
+4.0 release
+4.0 demo data
+
+
+Backup
+creaete services
+
+cust_app user create
+change in property file
+
+srclib path: dist
+build successfull? then: distantinstall
+
+
+
+expdp
+impdp
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2102_1_Build/
