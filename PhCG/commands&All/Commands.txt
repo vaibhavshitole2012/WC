@@ -17,11 +17,13 @@ javac D:\SVN_CPS17\4.0_tag\src\com\philips\cplm\packages\validators\PhilipsDocRe
 
 windchill wt.load.LoadFromFile -d <data file name> -u <user name> -p <user password> -CONT_PATH <container path>
 
-windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\PhilipsProductConfigurationCR_WF-59347.xml -u wcadmin -p wcadmin
+windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_Upgrade_DemoData\DevBranch\loadFiles\com\philips\cplm\DataManagement\Internal_Test_Data\LargeBom01\Sub1\xml\PhilipsProductStructure.xml -u wcadmin -p wcadmin -CONT_PATH "/wt.inf.container.OrgContainer=HealthTech/wt.pdmlink.PDMLinkProduct=QMS5_Philips_Product_01"
 
-windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\classIII\PhilipsProductConfigurationCR_WF.xml -u wcadmin -p wcadmin
+windchill wt.load.LoadFromFile -d D:\GitSVN\CnCM_R4.5_Upgrade_Demo_data\loadFiles\com\philips\cplm\UserManagement\Users\UsertoGroup\assignLicensingGroupsToAllUsers.xml -u wcadmin -p wcadmin
 
 
+
+windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_Upgrade_DemoData\DevBranch\loadFiles\com\philips\cplm\UserManagement\Users\UsertoGroup\assignLicensingGroupsToAllUsers.xml -u wcadmin -p wcadmin
 
 
 
@@ -48,7 +50,7 @@ javac D:\ptc\Windchill_11.1\Windchill\src\com\philips\cplm\core\part\datautiliti
 
 windchill com.philips.build.tools.PhilipsCreateQMSTeamTemplateUtility -u wcadmin -p wcadmin -t 5
 
-windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\CSM_PhilipsBusinesPartnerQualification_WF.xml -u wcadmin -p wcadmin
+windchill wt.load.LoadFromFile -d D:\GitSVN\CnCM_R4.5_Upgrade_Demo_data\loadFiles\com\philips\cplm\DataManagement\Automation\PartsAndDocs\Create_ClinicalStudyDocuments.xml -u wcadmin -p wcadmin
 
 windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow -lcPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\lifecycle
 

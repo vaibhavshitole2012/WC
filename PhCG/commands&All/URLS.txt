@@ -1,4 +1,11 @@
-robocopy D:\ptc D:\ptc_cps14Backup /E /XD
+Sonar key: dc4adc008b1614a5c9e39590180639e05533766b
+s22sw46p4laeioxicuomorc2u76h2lqdocmmdkkjvl6x5r75plta
+robocopy D:\ptc\Windchill_12.0\HTTPServer D:\ptc_ootb\Windchill_12.0\HTTPServer /E /XD
+robocopy D:\ptc\Windchill_12.0\Java D:\ptc_ootb\Windchill_12.0\Java /E /XD
+robocopy D:\ptc\Windchill_12.0\PSI D:\ptc_ootb\Windchill_12.0\PSI /E /XD
+robocopy D:\ptc\Windchill_12.0\PSI_11.1 D:\ptc_ootb\Windchill_12.0\PSI_11.1 /E /XD
+robocopy D:\ptc\Windchill_12.0\Windchill D:\ptc_ootb\Windchill_12.0\Windchill /E /XD
+robocopy D:\ptc\Windchill_12.0\WindchillDS D:\ptc_ootb\Windchill_12.0\WindchillDS /E /XD
 
 robocopy D:\ptc D:\ptc_cps14_3_8_Backup /E /XD
 
@@ -28,7 +35,7 @@ Step 5 : run command : grant read, write on DIRECTORY dump to <db_user>;
 Step 6 : quit 
 Step 7 : expdp system/Password-1@wind schemas=<db_user>  directory=dump dumpfile=<dump_filename>.dmp logfile=<log_filename>.log;
 
-expdp system/Password-1@wind schemas=wcadmin  directory=dump dumpfile=cps14.dmp logfile=cps14.log;
+expdp system/Password-1@wind schemas=wcadmin  directory=dump dumpfile=wc12.dmp logfile=wc12.log;
 
 OR
 
@@ -56,12 +63,12 @@ Java -jar cdt_1.0.1.jar mode=distandinstall
 ******************CREATE SERVICES COMMAND************
 
 ant -buildfile D:\ptc\Windchill_11.1\Windchill\opt\ntservice\WindchillService.xml install -DserviceName=PTC_WindchillCurrent
-ant -f D:\ptc\Windchill_11.1\HTTPServer\config.xml installService -DserviceName=PTCWindchillHTTPServerCurrent
+ant -f D:\ptc\Windchill_12.0\HTTPServer\config.xml installService -DserviceName=PTCWindchillHTTPServerCurrent
 (enable ds service from control-panel of ds)
 
 Delete SERVICES
 
-ant -buildfile D:\ptc\Windchill_11.1\Windchill\opt\ntservice\WindchillService.xml uninstall -DserviceName=PTCWindchillHTTPServerCurrent
+ant -buildfile D:\ptc\Windchill_12.0\Windchill\opt\ntservice\WindchillService.xml uninstall -DserviceName=PTCWindchillHTTPServerCurrent
 
 
 
@@ -132,3 +139,7 @@ https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/tags/R3.8_2112_1_
    <Property name="wt.queue.executeQueues" overridable="true"
              targetFile="codebase/wt.properties"
              value="true"/>
+			 
+http://cpcinpudv011356.cts.com/Windchill/app/
+
+1287

@@ -1,0 +1,963 @@
+cPLM_r2.4c
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/summaryReport/null/0=com.philips.cplm.core.project.validators.PhilipsViewSummaryReportValidator/duplicate
+
+http://proxy.cognizant.com
+
+*.cognizant.com;*.cts.com;*.webex.com;outlook.office365.com;*.outlook.office.com;*.sharepoint.com;autodiscover.cognizantonline.mail.onmicrosoft.com;cognizantonline.sharepoint.com;cognizantonline-my.sharepoint.com;cognizantonline-files.sharepoint.com;cognizantonline-myfiles.sharepoint.com;*.Lync.com;*.teams.microsoft.com;teams.microsoft.com;*.tdscpc.gov.in;61.246.185.76;61.246.185.74;61.246.185.70;61.246.185.75;*.talview.com;*.proview.com;browser.pipe.aria.microsoft.com;cognizantstage.spire2grow.com;cognizant.spire2grow.com;nexus.officeapps.live.com;nexusrules.officeapps.live.com;watson.telemetry.microsoft.com;mobile.pipe.aria.microsoft.com;vortex.data.microsoft.com
+
+https://www.dev07.windchill.plm.philips.com/login
+tf03.windchill.plm.philips.com/login
+
+https://dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_workitems/myactivity/
+
+[Yesterday 03:41 pm] Mahajan, Supriya (Partner)
+Information
+Service Name: {http://common.integration.cplm.philips.com/}DownloadContentService
+Port Name: {http://common.integration.cplm.philips.com/}DownloadContentPort
+Address: https://www.demo50.windchill.plm.philips.com/Windchill/protocolAuth/servlet/DownloadContent
+WSDL: https://www.demo50.windchill.plm.philips.com/Windchill/protocolAuth/servlet/DownloadContent?wsdl
+Implementation class: com.philips.cplm.integration.common.DownloadContent
+
+
+
+ant -f Create_New_WC_Jar.xml createJar
+
+windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow -lcPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\lifecycle
+
+https://PhilipsAgile@dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_git/CnCM_R4.5_Upgrade
+
+src\com\philips\cplm\notification\datautility\PhNotificationQMSTeamTempDataUtility.java
+
+320135115
+uid=wcadmin,ou=people,cn=administrativeldap,cn=windchill_11.1,o=ptc|Ldap.code1.emi.philips.com|Ldap.code1.emi.philips.com
+
+yqckp2dxkwqfs5fdisbidibiaoj6jjmlf3niuhdimzauwmtqt5ta
+
+1764776
+
+ant -f DeployConfigITUrl.xml UpdateConfigITUrl -Dcplm.envType=develop -DfileName=..\codebase\com\philips\cplm\properties\configITinterface.properties
+
+Command: git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks ls-remote https://PhilipsAgile@dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_git/CnCM_R4.5_Upgrade
+Output: 
+Error: fatal: unable to access 'https://dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_git/CnCM_R4.5_Upgrade/': Failed to connect to dev.azure.com port 443 after 21065 ms: Timed out
+
+Command: hg identify extensions.hgext.hgsubversion=! https://PhilipsAgile@dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_git/CnCM_R4.5_Upgrade
+Output: 
+Error: abort: error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+Command: perl.exe C:\Users\932784\AppData\Local\SourceTree\app-3.4.5\tools\svn.pl info https://PhilipsAgile@dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_git/CnCM_R4.5_Upgrade
+Output: 
+Error: System.ComponentModel.Win32Exception: The system cannot find the file specified
+
+
+
+<action name="markLinkAsSuspect" ajax="page" uicomponent="MANAGE_REQUIREMENT">
+         <command class="com.ptc.windchill.enterprise.requirement.forms.processors.MarkLinkAsSuspectProcessor" method="execute"/>
+      </action>
+
+https://www.test-tf01.windchill.plm.philips.com/Windchill
+
+(phiLogisticDimensionsUom=="Centimeter")?"CMQ":(phiLogisticDimensionsUom=="Foot")?"FTQ":(phiLogisticDimensionsUom=="Inch")?"INQ":(phiLogisticDimensionsUom=="Meter")?"MTQ":(phiLogisticDimensionsUom=="Yard")?"YDQ":""
+
+<?xml version="1.0"?>
+<!DOCTYPE NmLoader SYSTEM "standardX26.dtd">
+<NmLoader>
+<csvExportDefinition handler="com.ptc.core.lwc.server.TypeDefinitionExporter.beginExportDefinition">
+<csvtoLocation>D:\PhilipsTradeItem</csvtoLocation>
+<csvtoFileName>PhilipsTradeItem.xml</csvtoFileName>
+<csvexportDefClass>com.ptc.core.lwc.server.LWCTypeDefinition</csvexportDefClass>
+<csvexportNames>com.philips.PhilipsTradeItem</csvexportNames>
+<csvmode>0</csvmode>
+<csvExportAncestorTypes>false</csvExportAncestorTypes>
+<csvExportLocales>false</csvExportLocales>
+<csvExportEnumsApart>true</csvExportEnumsApart>
+<csvExportDescendantTypes>false</csvExportDescendantTypes>
+</csvExportDefinition>
+</NmLoader>
+
+cPLM_r2.4c
+dtkzf2qhy6xceyyvmtxis27sstitaibzxfks5emkoyldphwxqgpq
+https://dev.azure.com/PhilipsAgile
+https://www.dev07.windchill.plm.philips.com/Windchill/app/
+
+*.cognizant.com;*.cts.com;*.webex.com;outlook.office365.com;*.outlook.office.com;*.sharepoint.com;autodiscover.cognizantonline.mail.onmicrosoft.com;cognizantonline.sharepoint.com;cognizantonline-my.sharepoint.com;cognizantonline-files.sharepoint.com;cognizantonline-myfiles.sharepoint.com;*.Lync.com;*.teams.microsoft.com;teams.microsoft.com;*.tdscpc.gov.in;61.246.185.76;61.246.185.74;61.246.185.70;61.246.185.75;*.talview.com;*.proview.com;browser.pipe.aria.microsoft.com;cognizantstage.spire2grow.com;cognizant.spire2grow.com;nexus.officeapps.live.com;nexusrules.officeapps.live.com;watson.telemetry.microsoft.com;mobile.pipe.aria.microsoft.com;vortex.data.microsoft.com
+
+https://dev.b2bgw.philips.com/esb_test/SharePartRecordToEnterprise
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/part/datautilities/PhilipsDefaultUnitDataUtility.java
+
+US171302 Prevent CR from being cancelled after an CN has been resolved
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/datautility/PhilipsMoveResolvedCNtoCRPicker.java
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+1. cls - D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\csm\builders\CSMAMLAVLReportTreeBuilder.java
+
+2. jsp - D:\SVN_CPS17\4.5_DevBranch\codebase\netmarkets\jsp\ext\philips\cplm\csm\reports\csmBomAmlAvlReport.jsp
+
+3.custom.xml - mvc entry
+
+4. custom-actionModel entry: 
+
+<action name="psbCustomReportGWT05" type="psb" />
+
+5. custom - action entry: 
+
+<action name="psbCustomReportGWT05" resourceBundle="com.philips.cplm.reports.PhilipsReportsResource">
+
+	<command class="com.ptc.cat.ui.client.action.LaunchURLAction" url="/netmarkets/jsp/ext/philips/cplm/csm/reports/csmBomAmlAvlReport.jsp" windowType="popup"/>
+	<includeFilter name="com.ptc.cat.ui.client.internal.action.OneSelectionFilter"/>
+	<includeFilter name="com.ptc.cat.ui.client.internal.action.IsNotUnspecifiedIterationFilter"/>
+</action>	
+
+
+refer psbCustomReportGWT08 entry in custom-actionModel and custom-action xml files
+refer csmBomAmlAvlReport.jsp as I made similar code in philipsPartFamily
+refer CSMAMLAVLReportTreeBuilder.java as i copied silmilar code in PhilipsPartFamilyTableBuilder
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ConfigIT
+
+/C&CM/branches/release_4.5/DevBranch/codebase/com/philips/cplm/properties/philips.properties.xconf
+/C&CM/branches/release_4.5/DevBranch/Deployment.xml
+/C&CM/branches/release_4.5/DevBranch/codebase/com/philips/cplm/properties/configITinterface.properties
+/C&CM/branches/release_4.5/DevBranch/extension/DeployConfigITUrl.xml
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/change/datautilities/PhilipsConfigITWorkItemDataUtility.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/helper/PhilipsConfigitIntegrationHelper.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/part/helper/PhilipsPartHelper.java
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Philips Engineered Part Design View Lifecycle
+Not_Classified
+3KB000 Transmitting tubes
+/Automation_Product_Shaver/Reports
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/part/helper/PhilipsPartHelper.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/part/ChMPartResource.java
+	
+	/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/part/helper/PhilipsPartHelper.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/part/ChMPartResource.java
+
+300000002851
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/part/helper/PhilipsPartHelper.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/part/ChMPartElementBuilder.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/suma/PnDManufacturerPartElementBuilder.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/suma/PnDVendorPartElementBuilder.java
+
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/part/ChMPartElementBuilder.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/ixb/importer/part/ChMPartResource.java
+/C&CM/branches/release_4.5/DevBranch/codebase/com/philips/cplm/properties/philips.properties.xconf
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/part/datautilities/PhilipsDefaultUnitDataUtility.java
+
+
+US1427039 - Prevent change to Default Unit after Manufacturing Release
+
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\part\datautilities\PhilipsDefaultUnitDataUtility.java
+D:\SVN_CPS17\4.5_DevBranch\codebase\com\philips\cplm\properties\philips.properties.xconf
+
+wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/defaultUnit/java.lang.Object/0=com.philips.cplm.core.part.datautilities.PhilipsDefaultUnitDataUtility/duplicate
+
+
+windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:\SVN_4.5\4.5_tag\loadFiles\com\philips\cplm\workflow -lcPath D:\SVN_4.5\4.5_tag\loadFiles\com\philips\cplm\lifecycle
+
+/C&CM/branches/release_4.5/DevBranch/Deployment.xml
+/C&CM/branches/release_4.5/DevBranch/extension/createQMSTeamTemplateUtility.xml
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/build/tools/PhilipsCreateQMSTeamTemplateUtility.java
+
+	
+DI - China (Suzhou/Shenyang)_0007
+
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\doc\helper\PhilipsBPQDocHelper.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\validation\PhilipsReviseValidator.java
+D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\CSM_PhilipsBusinesPartnerQualification_WF.xml
+
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\resource\csmResource.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\resource\listenersResource.java
+
+US1427139 - Connect Business Partner Managers to one or more QMS 
+
+http://cpcinpudv011356.cts.com/Windchill/
+
+
+US1427139_1  Connect BP Managers to one or more QMS
+
+D:\SVN\4.0_Dev\src\com\philips\cplm\core\doc\masterlist
+
+https://www.dev06.windchill.plm.philips.com/Windchill/
+
+pwd: cPLM_r2.4c
+
+
+
+
+
+http://cpcinpudv011356.cts.com/Windchill/app/#ptc1/tcomp/infoPage?oid=VR%3Awt.doc.WTDocument%3A1612165
+
+[08:31 pm] Antony, Amalraj (Partner)
+\\CPCINPUDV007112\AmalWorkspace\New folder
+
+http://cpcinpudv011356.cts.com/Windchill/app/#ptc1/tcomp/infoPage?oid=VR%3Awt.doc.WTDocument%3A1666669&u8=1
+
+ D:\SVN\4.0_Dev\loadFiles\com\philips\cplm\groups\CSM_PhilipsBusinessPartnerQualificationQMS_Groups.xml (173 hits)
+
+<Service context="default" name="com.ptc.core.components.descriptor.DataUtility">
+	<Option serviceClass="ext.koel.pr.datautility.UserPickerDU" requestor="java.lang.Object" 
+		selector="user_picker" order="0" overridable="true" cardinality="singleton"/>
+     </Service>
+</Configuration>
+
+http://cpcinpudv011356.cts.com/Windchill/app/#ptc1/tcomp/infoPage?ContainerOid=OR%3Awt.pdmlink.PDMLinkProduct%3A1101568&oid=OR%3Acom.ptc.windchill.wp.tdp.TechnicalDataPackage%3A1800693&u8=1
+
+Creating a Service Product Hierarchy
+
+
+NmOid nmOid= mc.getNmCommandBean().getPrimaryOid();
+if(null!=nmOid) {
+objectOid= nmOid.getOidObject();
+ObjectReference reference = ObjectReference.newObjectReference(objectOid);
+persistable = reference.getObject();
+}
+
+ ArrayList<NmOid> selectedObjects = nmCommandBean.getNmOidSelectedInOpener();
+ ArrayList<?> selectOidForPopup = paramNmCommandBean.getSelectedOidForPopup();
+mc.getTargetObject()
+
+PhilipsERBOAGroupsCreationUtility
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/MULTIREVISEITEMSREVISEITEMS_FROMFOLDERS/null/0=ext.kc.product.tools.CogniReviseValidator/duplicate
+
+wt.services/svc/default/com.ptc.core.ui.validation.UIComponentValidator/REVISEITEMS/null/0=ext.kc.product.tools.CogniReviseValidator/duplicate
+
+
+HashSet<WTPrincipal> participants = new HashSet<>();
+RouteParticipantsBean participantsbean = RouteTeamParticipantsHelper.getParticipantsBean();
+
+		WTRoleHolder2 processTeam = participantsbean.getProcessTeam();
+		if (processTeam != null) {
+			QueryResult qr = TeamHelper.service.findRolePrincipalMap(wt.project.Role.toRole(role), null, processTeam);
+			while (qr.hasMoreElements()) {
+				RolePrincipalMap rpm = (RolePrincipalMap) qr.nextElement();
+				WTPrincipalReference principal = (WTPrincipalReference) rpm.getPrincipalParticipant();
+				if (principal != null)
+					participants.add(principal.getPrincipal());
+			}
+			return participants;
+		}
+
+http://cpcinpudv011356.cts.com/Windchill/
+
+	public static String getBusinessPartner(Object obj) throws WTException {
+		String businessPartner = IBAUtils.getIBAValueToString((IBAHolder) obj, PACKAGE_BUSINESS_PARTNER);
+		String businessPartnerName = PhilipsPackageBusinessPartnerDataUtility.getBusinessPartnerName(businessPartner);
+		return businessPartnerName;
+	}
+
+
+Business_Partner = com.philips.cplm.packages.PhilipsPackagesHelper.getBusinessPartner(primaryBusinessObject);
+// Get WfActivity and ProcessContainer
+wt.workflow.engine.WfActivity myActivity = (wt.workflow.engine.WfActivity)self.getObject();
+String myActivityName = myActivity.getName();
+// Set name of WfActivity
+myActivity.setName (myActivityName +""+Business_Partner + " - " + processContainerName);
+// save the WfActivity
+wt.fc.PersistenceHelper.manager.save(myActivity);
+
+
+TypeIdentifier typeID = TypedUtility.getTypeIdentifier(object);
+boolean isBpqDoc = typeID.isDescendedFrom(PhilipsPropertiesHelper.BUSINESSPARTNERQUALIFICATION_TYPE_ID);
+WorkPackage packag = (WorkPackage) object;
+
+
+
+	public static String getBusinessPartner(Object obj) throws WTException {
+		String businessPartner = null;
+		String businessPartnerName = null;
+		String workPackageInternal = "com.philips.PhilipsPackage";
+		WorkPackage workPackage = null;
+		String PACKAGE_BUSINESS_PARTNER = "packageBusinessPartner";
+
+		TypeIdentifier typeID = TypedUtility.getTypeIdentifier(obj);
+		TypeIdentifier WORK_PACKAGE_TYPE_ID = TypedUtility.getTypeIdentifier(workPackageInternal);
+		boolean isPackage = typeID.isDescendedFrom(WORK_PACKAGE_TYPE_ID);
+		if(isPackage){
+
+			workPackage = (WorkPackage) obj;
+			businessPartner = IBAUtils.getIBAValueToString((IBAHolder) workPackage, PACKAGE_BUSINESS_PARTNER);
+			businessPartnerName = PhilipsPackageBusinessPartnerDataUtility.getBusinessPartnerName(businessPartner);
+			return businessPartnerName;
+		}
+		return businessPartnerName;
+
+	}
+
+
+If a QMS team template with the same name as the selected QMS does not exist, then
+·	Error message shall be "The QMS team template does not exists for <QMS>, Contact the Business Organization Administrator (BOA) to create a QMS team template."
+else, if a non-qualifying QMS is selected during the creation/editing, then
+·	Error message shall be "You are not the Business Partner Qualification Manager in <QMS_Team_Template_Name> team template. Select your qualified QMS or contact the Business Organization Administrator (BOA) to update the <QMS_Team_Template_Name> team template."
+
+
+If a QMS team template with the same name as the selected document QMS does not exist, then
+·	Error message shall be "The QMS team template does not exists for QMS of <doc1>,<doc2>,...document(s),, Contact the Business Organization Administrator (BOA) to create a QMS team template(s)"
+else if the users is not assigned as the Business Partner Qualification Manager in QMS team template, then
+·	Error message shall be "You are not the Business Partner Qualification Manager on the QMS Team template for revising document(s) <doc1>, <doc2>.., Contact the Business Organization Administrator (BOA) to update the QMS team template(s)"
+
+com.philips.cplm.core.doc.helper.PhilipsBPQDocHelper
+com.philips.cplm.core.listeners.PhilipsReviseListenerAdapter
+com.philips.cplm.core.validation.PhilipsReviseValidator
+
+notifyVetoableMultiObjectEvent
+
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\components\forms\CreateAndAddDocFormProcessor.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\doc\helper\PhilipsBPQDocHelper.java
+D:\SVN_CPS17\4.5_Dev\src\com\philips\cplm\resource\csmResource.java
+
+QMS-DEMO_QMS1_
+
+US171302: Prevent CR from being cancelled after an CN has been resolved
+
+windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:/SVN_CPS17/4.5_DevBranch/loadFiles/com/philips/cplm/workflow -lcPath D:/SVN_CPS17/4.5_DevBranch/loadFiles/com/philips/cplm/lifecycle
+
+WTChangeActivity2 ECA = null;
+try{
+QueryResult qr = ChangeHelper2.service.getChangeActivities(ECN);
+while(qr.hasMoreElements()){
+ECA = (WTChangeActivity2)qr.nextElement();
+ECA.getName();
+
+
+CreateAndAddDocFormProcessor.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\doc\helper\PhilipsBPQDocHelper.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\validation\PhilipsReviseValidator.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\listeners\PhilipsReviseListenerAdapter.java
+D:\SVN_CPS17\4.5_DevBranch\src\com\philips\cplm\core\resource\listenersResource.java
+D:\SVN_CPS17\4.5_DevBranch\wtCustom\wt\project\RoleRB.rbInfo
+D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\CSM_PhilipsBusinesPartnerQualification_WF.xml
+D:\SVN_CPS17\4.5_DevBranch\Deployment.xml
+
+
+wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/name/java.lang.Object/0=com.philips.cplm.core.part.datautilities.PhilipsDisableNameDescPOC/duplicate
+wt.services/svc/default/com.ptc.core.components.descriptor.DataUtility/description/java.lang.Object/0=com.philips.cplm.core.part.datautilities.PhilipsDisableNameDescPOC/duplicate
+
+	public Object getDataValue(String paramString, Object paramObject, ModelContext paramModelContext) throws WTException {
+		Object result = super.getDataValue(paramString, paramObject, paramModelContext);
+		if (paramModelContext.getDescriptorMode() == com.ptc.core.ui.resources.ComponentMode.CREATE) {
+			boolean isRefDoc = KBTypeIdProvider.isDescendant(paramObject, "REFDOC");
+			boolean isKbDoc = KBTypeIdProvider.isDescendant(paramObject, "KBDOC");
+			if(isKbDoc || isRefDoc) {
+				return new TextDisplayComponent(paramString, "(Generated)");
+				
+			}
+		}
+		return result;
+	}
+	
+	https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_HF/CompBranch
+	
+	One of version of part \"{0}\" is in Released/Manufacturing Released State so Default unit cannot be updated
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+157157	The system must ensure that no part with concept as target maturity is permitted in MCT and MDCT.
+Applicable Part type : All part types with Maturity except Trade Item and Trade Component 
+·	If Part with concept maturity getting promoted for Manufacturing Released in MCT, then 
+o	UI error message shall be : "Part <Part_Numer> maturity level must be at least Development/Prototype or higher before releasing to manufacturing."
+o	BR error message shall be :   "Part maturity level must be at least Development/Prototype or higher before releasing to manufacturing."
+·	If Part with concept as target maturity in MDCT, then, 
+o	BR error message shall be : "Part maturity level must be at least Development/Prototype or higher to update with Master Data Change Task."
+
+US1426454 - Prevent Parts BOM in Maturity - Concept getting into SAP
+
+of %cplm.ConfigitCreateWorkItem%, %cplm.ConfigitGetWorkItem%, %cplm.ConfigitCloseWorkItem 
+
+\\svn.windchill.plm.philips.com\WCStaging\Windchill\11M020\Cognos Fix Pack 2
+
+•	CreateWorkItem: https://dev.apipil.philips.com/ws/rest/v1/WorkItem/CreateWorkItem/
+•	GetWorkItem : https://dev.apipil.philips.com/ws/rest/v1/WorkItem/GetWorkItem/{id}
+•	CloseWorkItem: https://dev.apipil.philips.com/ws/rest/v1/WorkItem/CloseWorkItem/{id}
+https://ace.dev.cfit.philips.com/wi/none/work/workitems/
+
+https://ace.dev.cfit.philips.com/Login/?returnUrl=~%2Fwi%2Fnone%2Fwork%2Fworkitems%2F345
+
+US1447094: Added dynamic URL handling details and data utility to dynamically show URL to configit for workitem
+
+
+·	If Part with concept maturity getting promoted for Manufacturing Released in MCT, then 
+o	BR error message shall be :   "Part maturity level must be Development/Prototype or higher before releasing to manufacturing."
+·	If Part with concept as target maturity in MDCT, then, 
+o	BR error message shall be : "Part maturity level must be Development/Prototype or higher to update with Master Data Change Task."
+
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/change/businessRules/PhilipsSecurityLabelsReleaseRule.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/businessRules/resource/PHBusinessRulesClientResource.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/change/businessRules/ChMPartMaturityRealeaseRule.java
+
+/C&CM/branches/release_4.5/DevBranch/codebase/com/philips/cplm/properties/philips.properties.xconf
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/change/datautilities/PhilipsConfigITWorkItemDataUtility.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/helper/PhilipsConfigitIntegrationHelper.java
+
+windchill wt.load.LoadFromFile -d D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow\classIII\PhilipsChangeActivityWorkflow.xml -u wcadmin -p wcadmin
+
+
+ConfigurationEng01
+
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/PhilipsProductConfigurationCR_WF.xml
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/classIII/PhilipsProductConfigurationCR_WF.xml
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/helper/PhilipsConfigitIntegrationHelper.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/listeners/PhilipsWfCommentsListenerAdapter.java
+
+•	This rule will validate only if Change notice type is Manufacturing Change Notice then it will validate Maturity should not be Concept on WTParts added in resulting objects and if Master Data Change Notice then target maturity attribute will be checked from change record, Maturity attribute value should not be Concept on Engineered Parts, Software Part, Configurable Part, Configurable Software Part
+
+
+•	New Version maturity
+The maturity of a new version must be equal or higher than the maturity of the latest released version.
+
+
+Create WorkItem ---->  https://www.dev.ace.configit.plm.philips.com/api/v1/wi/CreateWorkItem/
+Get WorkItem ---->  https://www.dev.ace.configit.plm.philips.com/api/v1/wi/GetWorkItem/{id}
+Close WorkItem ---->  https://www.dev.ace.configit.plm.philips.com/api/v1/wi/CloseWorkItem/{id}
+https://www.dev.ace.configit.plm.philips.com/api/v1/wi
+
+Create WorkItem ---->  https://www.test.ace.configit.plm.philips.com/api/v1/wi/CreateWorkItem/
+Get WorkItem ---->  https://www.test.ace.configit.plm.philips.com/api/v1/wi/GetWorkItem/{id}
+Close WorkItem ---->  https://www.test.ace.configit.plm.philips.com/api/v1/wi/CloseWorkItem/{id}
+https://www.test.ace.configit.plm.philips.com/api/v1/wi
+
+https://stackoverflow.com/questions/64236807/how-to-pass-an-api-key-in-a-http-request-with-java
+
+https://stackoverflow.com/questions/51778462/java-json-how-to-add-pass-an-apikey-in-the-httppost-request-header
+
+[Yesterday 07:34 pm] Jha, Rajat (Partner)
+https://www.test.ace.configit.plm.philips.com/api/v1/wi    --> Ace model AWS Test api
+ZTAwNThhYzc1YjAwNDg0MWFlMGNhMmJhZTJhNTNlMmFfNmM5ZDg0MjAzZGNlNDgzODkwMzcxNzJiODNlNDFkMTg= --> Apikey for AWS Testhttps://www.dev.ace.configit.plm.philips.com/api/v1/wi    --> Ace model AWS Dev api
+ZWJmZjRkMzlhZjhjNDc2ODkyZjhlNzk1MDFjMDY2OTdfNjE3NDI3MGEwMzc5NGJmMGIzMTQ1YWRlNTkyOWVlYzY= --> Apikey for AWS dev
+ like 1
+Configit Ace
+
+[Yesterday 09:02 pm] Shitole, Vaibhav (Partner)
+Thank you Rajat and Sastry
+
+https://www.dev.ace.configit.plm.philips.com/wi/none/work/workitems/
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/change/businessRules/PhilipsSecurityLabelsReleaseRule.java
+/C&CM/branches/release_4.5/DevBranch/extension/DeployConfigITUrl.xml
+
+[03:42 pm] Jha, Rajat (Partner)
+For Dev:-
+https://dev.apipil.philips.com/ws/rest/v1/WorkItem/CreateWorkItem
+https://dev.apipil.philips.com/ws/rest/v1/WorkItem/GetWorkItem/75
+https://dev.apipil.philips.com/ws/rest/v1/WorkItem/CloseWorkItem/75
+
+Use Basic Auth with UserName :- GenericUser and Pass :- GenericPass
+
+[03:42 pm] Jha, Rajat (Partner)
+I will share the apis for test in few mins
+
+[03:56 pm] Jha, Rajat (Partner)
+
+For Test:-
+https://tst.apipil.philips.com/ws/rest/v1/WorkItem/CreateWorkItem
+https://tst.apipil.philips.com/ws/rest/v1/WorkItem/GetWorkItem/107
+https://tst.apipil.philips.com/ws/rest/v1/WorkItem/CloseWorkItem/107
+
+Use Basic Auth with UserName :- GenericUser and Pass :- GenericPass
+
+DesignEngineerA01
+
+
+https://www.dev.ace.configit.plm.philips.com/wi/none/work/workitems/
+
+https://www.test.ace.configit.plm.philips.com/wi/none/work/workitems/
+
+
+[05:33 pm] Bulusu, Hima (Partner)
+https://www.dev.ace.configit.plm.philips.com/wi/80/model/products/productgroups/index
+
+[05:33 pm] Bulusu, Hima (Partner)
+Workitemlink
+
+
+https://www.dev.ace.configit.plm.philips.com/wi/none/work/workitems/{id}/details
+
+https://www.test.ace.configit.plm.philips.com/wi/none/work/workitems/{id}/details
+
+
+Creator cannot be the only reviewer
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/helper/PhilipsConfigitIntegrationHelper.java
+
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/PhilipsProductConfigurationCR_WF.xml
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/classIII/PhilipsProductConfigurationCR_WF.xml
+
+\10.154.203.170\CPS Bundle\Windchill12_Unzipped
+
+/C&CM/branches/release_4.5/DevBranch/codebase/com/philips/cplm/properties/configITinterface.properties
+/C&CM/branches/release_4.5/DevBranch/extension/DeployConfigITUrl.xml
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/core/helper/PhilipsConfigitIntegrationHelper.java
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade
+
+java.util.HashMap<java.lang.String, java.lang.String> routingValues = com.ptc.netmarkets.util.beans.NmCommandBean.getChangedRadio();
+        java.lang.String comments = com.philips.cplm.change.PhilipsChangeUtility.getComments(com.ptc.netmarkets.util.beans.NmCommandBean);
+        for (java.util.Map.Entry<java.lang.String, java.lang.String> entry1 : routingValues.entrySet()) {
+           java.lang.String signOffValue = entry1.getValue();
+            if ("Cancel".equals(signOffValue) && comments.isEmpty()) {
+                throw new wt.util.WTException("Comments are required to complete the task.");
+            }
+
+        }
+		
+windchill com.philips.build.tools.PhilipsCreateQMSTeamTemplateUtility -u wcadmin -p wcadmin -t 5
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/biologicalindicators
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/cadx
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/calendar
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/audit
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/autosuggest
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/resource
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/reviewevidence
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/rule
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/reports
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade
+
+
+US1234567: added philips code in Windchill 12 file
+US1234567: added parameters to mapPartElement method
+US1234567: updated code for windchill 12 upgrade
+
+
+navigation.jsfrag
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/wip/checkin.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/wip/checkin.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/wp/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/wp/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/wpcollection/addToPackageStep.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/wpcollection/addToPackageStep.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/util/jsfrags/queryBuilder.jsfrag
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/javascript/util/jsfrags/queryBuilder.jsfrag
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/changeTask/wizardCreate.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/history/revisionHistory.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/mpml/resource/createMPMResourceWizard.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/object/configurableLinkRoleATable.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/object/editMultiObjects.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/object/editMultiObjects.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/object/pasteAsCopy/pasteAsCopyWizard.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/tgt/createDistributionTargetWizard.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/tgt/distributionList.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/util/about.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/workflow/processHistory.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/templates/uwgm/cadx/multirename/multirename.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/templates/uwgm/cadx/saveas/saveas.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/templates/uwgm/cadx/saveas/saveasvalidator.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/changeTask/wizardCreate.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/history/revisionHistory.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/mpml/resource/createMPMResourceWizard.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/object/configurableLinkRoleATable.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/object/editMultiObjects.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/object/editMultiObjects.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/object/pasteAsCopy/pasteAsCopyWizard.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/tgt/createDistributionTargetWizard.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/tgt/distributionList.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/util/about.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/templates/uwgm/cadx/multirename/multirename.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/templates/uwgm/cadx/saveas/saveas.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/templates/uwgm/cadx/saveas/saveasvalidator.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/WEB-INF/jsp/shell.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/ato/ato-components.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/documentManagement.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/editSecurityLabels.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/promotionRequest/promotionRequest.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/util/jsfrags/clfExplorerTree.jsfrag
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/javascript/util/jsfrags/navigation/navigation.jsfrag
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/changeNotice/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/changeRequest/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/changeReview/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/components/defineItem.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/document/create.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/document/edit.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/enterprisedata/editEnterpriseDataWizStep.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/mrb/resource/createResourceWizardInMRB.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/org/listUtilities.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/part/edit.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/site/listUtilities.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/tgt/displayRawData.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/WEB-INF/jsp/shell.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/javascript/ato/ato-components.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/javascript/documentManagement.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/javascript/editSecurityLabels.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/javascript/promotionRequest/promotionRequest.js
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/javascript/util/jsfrags/clfExplorerTree.jsfrag
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/changeNotice/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/changeRequest/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/changeReview/create.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/document/create.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/document/edit.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/enterprisedata/editEnterpriseDataWizStep.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/mrb/resource/createResourceWizardInMRB.jspf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/org/listUtilities.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/part/edit.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/site/listUtilities.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/tgt/displayRawData.jsp
+
+Java files to modify--
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/biologicalindicators
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/cadx
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/calendar
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/audit
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/autosuggest
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/resource
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/reviewevidence
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/rule
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DandB/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/reports
+
+CS298531
+
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esipart/PhilipsESIWTPartRenderer.java
+
+
+[06:30 pm] Waghmare, Bhumesh (Partner)
+E:\checkouts\R4.5\DevBranch\wtSafeArea\siteMod\src\com\ptc\windchill\ixb\importer\bom\WTPartUsageLinkElementBuilder.java
+E:\checkouts\R4.5\DevBranch\wtSafeArea\siteMod\src\com\ptc\windchill\ixb\importer\part\WTPartElementBuilder.java
+
+https://support.ptc.com/help/wnc/r12.0.2.0/en/index.html#page/Windchill_Help_Center%2FWCCG_Oview_Log4j_Customization_Appenders.html%23
+
+
+# Define KBCreatePartService appender, which sends log events to a file
+log4j.appender.KBCreatePartService=wt.log4j.jmx.DailyRollingFileAppender
+log4j.appender.KBCreatePartService.File=${wt.logs.dir}/interface/KBCreatePartService-${wt.jvm.startTime.formatted.short}-log4j.log
+log4j.appender.KBCreatePartService.DatePattern='.'yyyy-MM-dd
+log4j.appender.KBCreatePartService.layout=org.apache.log4j.PatternLayout
+log4j.appender.KBCreatePartService.layout.ConversionPattern=%d{ISO8601} %-5p %c %X{user} - %m%n
+# Define log4j logging for KBCreatePartService appender
+log4j.logger.ext.kb.ws.KBCreatePartService_Log=TRACE,KBCreatePartService
+# Undefine log4j logging for general loggers
+log4j.additivity.ext.kb.ws.KBCreatePartService_Log=false
+
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/codebase/com/philips/cplm/properties/Philips-log4j.properties.xconf
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/tool/esitransaction/ESITransactionCleanupTool.java
+
+appender.methodServerLogFile.policies.size.type = SizeBasedTriggeringPolicy
+appender.methodServerLogFile.policies.size.size=9MB
+
+13	/Philips_Release_4.5/src/com/philips/cplm/core/components/forms/PhilipsPasteFormProcessor.java	Method getRoleBObject and getPersistInfo undefined for type UDISubmissionDetailsLink		Done
+15	/Philips_Release_4.5/src/com/philips/cplm/core/doc/label/tokencollector/UDISizeDeviceCharacteristicNavigator.java	Method ROLE_BOBJECT_ROLE undefined for type UDISubmissionDetailsLink	 	Done
+16	/Philips_Release_4.5/src/com/philips/cplm/core/doc/label/tokencollector/UDIStorageDeviceCharacteristicNavigator.java	Method ROLE_BOBJECT_ROLE undefined for type UDISubmissionDetailsLink	 	Done
+27	/Philips_Release_4.5/src/com/philips/cplm/model/helpers/UDISubmissionDetailsHelper.java	Method getRoleAObject and getPersistInfo undefined for type UDISubmissionDetailsLink	 	Done
+28	/Philips_Release_4.5/src/com/philips/cplm/model/links/UDISubmissionDetailsLink.java	missing:UDISubmissionDetailsLink	 	Done
+
+E:\checkouts\R4.5\DevBranch\wtSafeArea\siteMod\src\com\ptc\windchill\esi\esidoc\ESIDocUtility.java
+
+
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsESIDocUtility.java
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsESIDocumentsRenderer.java
+/C&CM/branches/release_4.5/DevBranch/wtSafeArea/ptcOrig/src/com/ptc/windchill/esi/esidoc/ESIDocUtility.java
+/C&CM/branches/release_4.5/DevBranch/wtSafeArea/siteMod/src/com/ptc/windchill/esi/esidoc/ESIDocUtility.java
+
+
+
+
+wt.java.cmd=C\:\\Program Files\\Amazon Corretto\\jdk11.0.7_10\\bin\\java.exe
+wt.java.cmd.quoted="$(wt.java.cmd)"
+wt.java.lib=$(wt.home)$(dir.sep)lib
+wt.javac.classpath=$(wt.java.classpath)$(path.sep)$(wt.annotations.jar)
+wt.javac.classpath.quoted="$(wt.javac.classpath)"
+wt.jdk=C\:\\Program Files\\Amazon Corretto\\jdk11.0.7_10
+
+
+   [java] Error :    [javac] D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/widget/form/ListField.java):322: error: reference to append is ambiguous
+     [java] There is compilation issue. Please fix it
+	 
+	 
+	 destfile="${lib.dir}/${jarNameLib}" zip64Mode="always"
+	 
+	 
+
+
+import com.extjs.gxt.ui.client.Style;
+import com.extjs.gxt.ui.client.core.FastMap;
+import com.extjs.gxt.ui.client.core.FastSet;
+
+
+import com.ptc.windchill.enterprise.part.structureCompare.server.graph.SCGraphBuilder;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import com.ptc.windchill.enterprise.dsb.client.DSBServerProperties;
+import com.ptc.windchill.enterprise.dsb.client.ops.DSBCompareOperation;
+import com.ptc.windchill.enterprise.dsb.server.cache.DSBCacheKey;
+import com.ptc.windchill.enterprise.dsb.server.controller.DSBCompareOptionsManager;
+import com.ptc.windchill.enterprise.dsb.server.graph.DSBGraphToSummaryConverter;
+import com.ptc.windchill.enterprise.dsb.server.ops.StructureCompareOperation;
+import com.ptc.cat.ops.server.GWTSerializationHelper;
+import com.ptc.mvc.ds.client.ui.DefaultDataSourceModel;
+
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.UUID;
+import org.apache.logging.log4j.LogManager;
+import wt.fc.ObjectIdentifier;
+import wt.fc.PersistenceHelper;
+
+import com.google.gwt.user.server.rpc.RPC;
+import com.ptc.cat.assocnav.server.AssociationNavigatorBeanPostProcessor;
+import com.ptc.cat.assocnav.server.AssociationNavigatorParameters;
+import com.ptc.cat.assocnav.server.params.PartUsesParams;
+import com.ptc.cat.entity.client.attribute.AttributeMapper;
+import com.ptc.cat.entity.client.internal.AbstractNode;
+import com.ptc.cat.entity.client.internal.ServerIdentifier;
+import com.ptc.cat.entity.client.nav.Navigable;
+import com.ptc.cat.entity.client.nav.internal.DefaultNavigable;
+import com.ptc.cat.entity.client.structure.AbstractStructureModel;
+import com.ptc.cat.entity.client.structure.SimpleMasteredStructureModel;
+import com.ptc.cat.gxt.client.data.AttributeSortInfo;
+import com.ptc.cat.entity.server.EntityUtils;
+
+
+
+ <Property name="wt.federation.org.enterpriseAdapter" overridable="true"
+             targetFile="codebase/wt.properties"
+             value="com.cts.EnterpriseLdap"/>
+			 
+			 
+D:\ptc\Windchill_12.0\Windchill>javac D:\SVN_CPS17\4.5_Upgrade\Dev\src\com\philips\build\tools\helper\TestCode.java
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/widget/form/ListField.java):322: error: reference to append is ambiguous
+      sb.append(m.get(prop));
+        ^
+  both method append(CharSequence) in StringBuffer and method append(char[]) in StringBuffer match
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/widget/ListView.java):816: error: incompatible types: Node cannot be converted to Element
+        Element node = bufferRender(list).getItem(0);
+                                                 ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/widget/selection/StoreSelectionModel.java) uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+
+
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/core/FastSet.java):50: error: package com.philips.cplm.ebommbom.sync.service does not exist
+    String s = map.remove(o);
+                         ^
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/core/FastMap.java):39: error: package com.philips.cplm.ebommbom.sync.service does not exist
+        Map.Entry<?, ?> s = (Map.Entry<?, ?>) a;
+
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/Style.java):57: error: package com.philips.cplm.ebommbom.sync.service does not exist
+  public enum Scroll {
+                      ^
+					  
+
+
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/widget/form/ListField.java):322: error: reference to append is ambiguous
+      sb.append(m.get(prop));
+        ^
+  both method append(CharSequence) in StringBuffer and method append(char[]) in StringBuffer match
+D:\ptc\Windchill_12.0\Windchill\codebase\WEB-INF\lib\wc3rdpartylibs.jar(/com/extjs/gxt/ui/client/widget/ListView.java):816: error: incompatible types: Node cannot be converted to Element
+        Element node = bufferRender(list).getItem(0);
+
+
+
+
+Work Instructions for Business Rule Error task related to Security Label/Concept Maturity Business Rule on Philips Change Activity workflow
+Body:
+The release of this change notice cannot occur because one or more Security Label</Concept Maturity> Business Rules failed.
+Take the following steps to proceed:
+1.	Click the View Rule conflicts link above to view which objects and what rules cause the check to fail.
+2.	Resolve the conflicts, using the resolutions options indicated.
+3.	If you think all conflicts are resolved, complete your task with the option "Complete and Revalidate". 
+
+This option will run the business rules check again, and if successful, let the workflow proceed to the approver.
+Some of the options you can apply to resolve this (random order):
+1.	Remove the conflicting parts or documents from resulting items of the change task. OR
+2.	Correct the security labels when possible. OR
+3.	If required, revise the conflicting parts and documents, correct the security labels and update the Change Notice and continue.
+Routing Options:
+·	Complete and Revalidate
+ 
+Note:
+·	Security Label Business Rule This does not apply for Master Data Change Task
+·	/Concept Maturity text should display only for MCT and MDCT
+
+                                                 ^
+												 
+PhilipsBomCompareHelper
+PhilipsGWTAction
+
+ant -f bin/tools.xml class -Dclass.includes=com/ptc/cat/ui/client/action/*
+
+
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/PhilipsChangeActivityWorkflow.xml
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/classIII/PhilipsChangeActivityWorkflow.xml
+/C&CM/branches/release_4.5/DevBranch/src/com/philips/cplm/change/businessRules/PhilipsSecurityLabelsReleaseRule.java
+
+"wt.content.disableSecurityLabels"
+"wt.content.disableSecureUpload"
+
+US123456: changed property name as it is changed in OOTB code of wnc jar file.
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/codebase/com/philips/cplm/properties/philips.properties.xconf
+
+classification
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/codebase/netmarkets/jsp/part/createPartWizardView.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/part/createPartWizard.jsp
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/codebase/netmarkets/jsp/part/createPartWizardView.jsp
+
+
+To resolve issue with compiler 11
+
+run the following command keeping the file in Windchill Home
+
+ant -f Create_New_WC_Jar.xml createJar
+
+and use the jars from the directory new_wc_jars
+
+windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow -lcPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\lifecycle
+
+
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/PhilipsChangeActivityWorkflow.xml
+/C&CM/branches/release_4.5/DevBranch/loadFiles/com/philips/cplm/workflow/classIII/PhilipsChangeActivityWorkflow.xml
+
+(phiLogisticDimensionsUom == "CMT")?"CMQ":(phiLogisticDimensionsUom == "FOT")?"FTQ":(phiLogisticDimensionsUom == "INH")?"INQ":(phiLogisticDimensionsUom == "MTR")?"MTQ":(phiLogisticDimensionsUom == "YRD")?"YDQ":""
+
+(1*phiLogisticDepth*phiLogisticWidth*phiLogisticHeight)
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/codebase/config/actions/custom-actionmodels.xml
+
+<model name="changeTask_Open_submenu" resourceBundle="com.ptc.windchill.enterprise.change2.changeManagementActionsRB">
+      <action name="launchInMAPSBWithDualContext" type="mapsb"/>     <!-- Launch Manufacturing Associative Part Structure Browser -->
+   </model>
+   
+   
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsDocumentQueryDelegate.java
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsESIDocUtility.java
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsESIDocumentsRenderer.java
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/ptcOrig/src/com/ptc/windchill/esi/esidoc/ESIDocUtility.java
+/C&CM/branches/release_4.5_Upgrade/DevBranch/wtSafeArea/siteMod/src/com/ptc/windchill/esi/esidoc/ESIDocUtility.java
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsDocumentQueryDelegate.java
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esipart/PhilipsESIWTPartRenderer.java
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/tool/esitransaction/ESITransactionCleanupTool.java
+
+addDescribeDocumentPDI
+addReferenceDocPDI
+
+Enumeration orgsEnum = OrganizationServicesHelper.manager.findLikeOrganizations("organizationIdentifier.uniqueIdentifier", name, WTContainerHelper.service.getExchangeContainer().getContextProvider());
+
+if (enumManufacturers.hasMoreElements()) {
+
+
+
+    organization = (WTOrganization) enumManufacturers.nextElement();
+
+}
+
+/C&CM/branches/release_4.5_Upgrade/DevBranch/src/com/philips/cplm/esi/esidoc/PhilipsDocumentQueryDelegate.java
+
+https://PhilipsAgile@dev.azure.com/PhilipsAgile/5.0%20DC%20I2M/_git/release_4.5_Upgrade
+
+https://svn.windchill.plm.philips.com/svn/CommonPLM-DemoData/branches/DemoData_4.5_Upgrade
+
+D:\SVN_CPS17\4.5_Upgrade\Dev\loadFiles\com\philips\cplm\type_attributes\GS1_Packaging_Sheet_0.xml
+
+http://cpcinpudv011356.cts.com/Windchill/
+
+Disable custom view in SaveAs action
+src/com/philips/cplm/enterprise/forms/PhilipsSaveAsCSAndEditJSConfigTable.java
+src/com/philips/cplm/enterprise/forms/PhilipsSaveAsDependencyAndEditJSConfigurableTable.java
+wtSafeArea/siteMod/codebase/com/ptc/windchill/uwgm/cadx.properties
+
+
+profile change
+loadFiles/content/UpdateStandardProfile/PhilipsUpdateStandardProfile.csv
+src/com/philips/build/tools/PhilipsUpdateStandardProfile.java
+
+
+·	When the selected Notification Role does not exist or does not have any members in the corresponding container QMS team template role then the following error message will be given: 'Error: Notification Role does not exist or does not have any members in QMS team template - <Name of Team Template>. Please contact your Administrator
+
+·	When Notification QMS Team Template is selected and Notification Role is empty then the following error message will be given "Error: Notification Role must be selected when Notification QMS Team Template is selected"
+
+
+} else if ((mc.getRawValue() != null ) && mc.getDescriptorMode().equals(ComponentMode.VIEW)) {
+String notificationQMSValue = (String) PhilipsPartHelper.getAttributesValues((Persistable) object,
+PhilipsPropertiesHelper.IBA_NOTIFICATION_QMS);
+
+
+
+GlobalEnumLocalizer qms = new GlobalEnumLocalizer(QMSLIST, SessionHelper.getLocale());
+return String.valueOf(qms.getDisplayValue(notificationQMSValue));
+}else if((mc.getRawValue() != null ) && mc.getDescriptorMode().equals(ComponentMode.EDIT)) {
+DefaultTypeInstance instance = (DefaultTypeInstance) object;
+ObjectReference cnRef = TypeIdentifierUtility.getObjectReference((TypeInstanceIdentifier) instance.getIdentifier());
+Object object1 = cnRef.getObject();
+String notificationQMSValue = (String) PhilipsPartHelper.getAttributesValues((Persistable) object1,
+PhilipsPropertiesHelper.IBA_NOTIFICATION_QMS);
+GlobalEnumLocalizer qms = new GlobalEnumLocalizer(QMSLIST, SessionHelper.getLocale());
+return String.valueOf(qms.getDisplayValue(notificationQMSValue));
+}else if ((mc.getRawValue() == null ) && (mc.getDescriptorMode().equals(ComponentMode.VIEW) || mc.getDescriptorMode().equals(ComponentMode.EDIT)) ) {
+return new Label("-");
+}
+
+[06:21 pm] Ravikumar, Yuvarani (Partner)
+<!-- Start - 1965103: Enhance Notification functionality to support sending notification to role staffed in Team template -->
+<sqlload sqlpath="tableViews/Delete_Notification_TableViews_Latest.sql" force="true" /> <load file="com/philips/cplm/tableViews/PhilipsNotificationsFolderView.xml" containerPath="/" />
+<load file="com/philips/cplm/tableViews/PhilipsActiveNotificationsTableView.xml" containerPath="/" />
+<load file="com/philips/cplm/tableViews/PhilipsAllNotificationsTableView.xml" containerPath="/" /> <!-- END - 1965103: Enhance Notification functionality to support sending notification to role staffed in Team template -->
+
+<load file="com/philips/cplm/reports/Philips_Notification_Report_Loader" containerPath="/" />
+
+windchill com.philips.build.tools.PhilipsTemplatesSegregationUtility -wfPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\workflow -lcPath D:\SVN_CPS17\4.5_DevBranch\loadFiles\com\philips\cplm\lifecycle
+
+
+Notification story: 
+
+Deployment.xml
+Deployment_HF.xml
+codebase/com/philips/cplm/properties/philips.properties.xconf
+codebase/netmarkets/jsp/com/philips/cplm/notificationcollection/setNotificationAttribute.jsp
+db/sql/tableViews/Delete_Notification_TableViews_Latest.sql
+loadFiles/com/philips/cplm/globalEnumList/SystemsTeam/NotificationRole/NotificationRole_0.xml
+loadFiles/com/philips/cplm/reports/Philips_Notification_Report_Loader.xml
+loadFiles/com/philips/cplm/tableViews/PhilipsActiveNotificationsTableView.xml
+loadFiles/com/philips/cplm/tableViews/PhilipsAllNotificationsTableView.xml
+loadFiles/com/philips/cplm/tableViews/PhilipsNotificationsFolderView.xml
+loadFiles/com/philips/cplm/type_attributes/Managedcollection_0.xml
+loadFiles/com/philips/cplm/type_attributes/Managedcollection_1.xml
+loadFiles/com/philips/cplm/type_attributes/Managedcollection_2.xml
+loadXMLFiles/com/philips/cplm/reports/PhilipsNotificationDocumentReport.xml
+src/com/philips/cplm/core/doc/helper/PhilipsBPQDocHelper.java
+src/com/philips/cplm/notification/datautility/PhNotificationQMSTeamTempDataUtility.java
+src/com/philips/cplm/notification/processor/CreateNotificationCollectionFormProcessor.java
+src/com/philips/cplm/notification/reports/NotificationReport.java
+src/com/philips/cplm/notification/reports/NotificationReportProcessorController.java
+src/com/philips/cplm/notification/reports/PhilipsNotificationReportTableBuilder.java
+src/com/philips/cplm/notification/utilities/PhilipsNotificationEmailUtility.java
+src/com/philips/cplm/notification/validators/PhilipsEditManagedCollectionValidator.java
+src/com/philips/cplm/properties/PhilipsPropertiesHelper.java
+
+
+SELECT name FROM wtorganization WHERE ida3containerreference!='6' AND ida2a2 NOT IN (SELECT ida3containerreference FROM vendor UNION SELECT ida3organizationreference FROM manufacturer);
+
+SELECT name FROM wtorganization WHERE CLASSNAMEKEYCONTAINERREFEREN!='wt.inf.container.ExchangeContainer' AND ida2a2 NOT IN (SELECT ida3containerreference FROM vendor UNION SELECT ida3organizationreference FROM manufacturer);
+
+*.cognizant.com;*.cts.com;*.webex.com;outlook.office365.com;*.outlook.office.com;*.sharepoint.com;autodiscover.cognizantonline.mail.onmicrosoft.com;cognizantonline.sharepoint.com;cognizantonline-my.sharepoint.com;cognizantonline-files.sharepoint.com;cognizantonline-myfiles.sharepoint.com;*.Lync.com;*.teams.microsoft.com;teams.microsoft.com;*.tdscpc.gov.in;61.246.185.76;61.246.185.74;61.246.185.70;61.246.185.75;*.talview.com;*.proview.com;browser.pipe.aria.microsoft.com;cognizantstage.spire2grow.com;cognizant.spire2grow.com;nexus.officeapps.live.com;nexusrules.officeapps.live.com;watson.telemetry.microsoft.com;mobile.pipe.aria.microsoft.com;vortex.data.microsoft.com
